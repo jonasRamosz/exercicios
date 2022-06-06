@@ -1,0 +1,13 @@
+times = 'flamengo', 'internacional', 'atletico-MG', 'são paulo', 'fluminense', 'gremio', 'palmeiras', 'santos', 'athletico-PR', 'bragantino', 'ceara', 'corinthians', 'atlético-GO', 'bahia', 'sport recife', 'fortaleza', 'vasco da gama', 'goias', 'coritiba', 'botafogo'
+print('=-'*20)
+print('OS 5 PRIMEIROS COLOCADOS SÃO :')
+print(times[0:5])
+print('=-'*20)
+print('OS ULTIMOS 4 ULTIMOS DA TABELA')
+print(times[16:20])
+print('=-'*20)
+print('OS TIMES EM ORDEM ALFABETICA FICAM ')
+print(sorted(times))
+print('=-'*20)
+print('EM QUAL POSIÇÃO ESTA O CEARA')
+print(times.index('ceara')+1)
